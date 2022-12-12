@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ThaoNhuShop.Api/1.0.0": {
+        "dependencies": {
+          "ThaoNhuShop.Application": "1.0.0",
+          "ThaoNhuShop.Contract": "1.0.0",
+          "ThaoNhuShop.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "ThaoNhuShop.Api.dll": {}
+        }
+      },
+      "ThaoNhuShop.Application/1.0.0": {
+        "dependencies": {
+          "ThaoNhuShop.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ThaoNhuShop.Application.dll": {}
+        }
+      },
+      "ThaoNhuShop.Contract/1.0.0": {
+        "runtime": {
+          "ThaoNhuShop.Contract.dll": {}
+        }
+      },
+      "ThaoNhuShop.Domain/1.0.0": {
+        "runtime": {
+          "ThaoNhuShop.Domain.dll": {}
+        }
+      },
+      "ThaoNhuShop.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ThaoNhuShop.Application": "1.0.0"
+        },
+        "runtime": {
+          "ThaoNhuShop.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ThaoNhuShop.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ThaoNhuShop.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ThaoNhuShop.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ThaoNhuShop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ThaoNhuShop.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

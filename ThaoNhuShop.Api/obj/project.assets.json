@@ -1,0 +1,153 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ThaoNhuShop.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ThaoNhuShop.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ThaoNhuShop.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThaoNhuShop.Application.dll": {}
+        }
+      },
+      "ThaoNhuShop.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ThaoNhuShop.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThaoNhuShop.Contract.dll": {}
+        }
+      },
+      "ThaoNhuShop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ThaoNhuShop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThaoNhuShop.Domain.dll": {}
+        }
+      },
+      "ThaoNhuShop.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ThaoNhuShop.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ThaoNhuShop.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThaoNhuShop.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ThaoNhuShop.Application/1.0.0": {
+      "type": "project",
+      "path": "../ThaoNhuShop.Application/ThaoNhuShop.Application.csproj",
+      "msbuildProject": "../ThaoNhuShop.Application/ThaoNhuShop.Application.csproj"
+    },
+    "ThaoNhuShop.Contract/1.0.0": {
+      "type": "project",
+      "path": "../ThaoNhuShop.Contract/ThaoNhuShop.Contract.csproj",
+      "msbuildProject": "../ThaoNhuShop.Contract/ThaoNhuShop.Contract.csproj"
+    },
+    "ThaoNhuShop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ThaoNhuShop.Domain/ThaoNhuShop.Domain.csproj",
+      "msbuildProject": "../ThaoNhuShop.Domain/ThaoNhuShop.Domain.csproj"
+    },
+    "ThaoNhuShop.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ThaoNhuShop.Infrastructure/ThaoNhuShop.Infrastructure.csproj",
+      "msbuildProject": "../ThaoNhuShop.Infrastructure/ThaoNhuShop.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ThaoNhuShop.Application >= 1.0.0",
+      "ThaoNhuShop.Contract >= 1.0.0",
+      "ThaoNhuShop.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vuldt\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj",
+      "projectName": "ThaoNhuShop.Api",
+      "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj",
+      "packagesPath": "C:\\Users\\vuldt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\vuldt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj": {
+              "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj"
+            },
+            "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj": {
+              "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj"
+            },
+            "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

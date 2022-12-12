@@ -1,0 +1,17 @@
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\bin\Debug\net6.0\ThaoNhuShop.Infrastructure.deps.json
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\bin\Debug\net6.0\ThaoNhuShop.Infrastructure.dll
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\bin\Debug\net6.0\ThaoNhuShop.Infrastructure.pdb
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\obj\Debug\net6.0\ThaoNhuShop.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\obj\Debug\net6.0\ThaoNhuShop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\obj\Debug\net6.0\ThaoNhuShop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\obj\Debug\net6.0\ThaoNhuShop.Infrastructure.AssemblyInfo.cs
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\obj\Debug\net6.0\ThaoNhuShop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\obj\Debug\net6.0\ThaoNhuShop.Infrastructure.dll
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\obj\Debug\net6.0\refint\ThaoNhuShop.Infrastructure.dll
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\obj\Debug\net6.0\ThaoNhuShop.Infrastructure.pdb
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\obj\Debug\net6.0\ref\ThaoNhuShop.Infrastructure.dll
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\bin\Debug\net6.0\ThaoNhuShop.Application.dll
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\bin\Debug\net6.0\ThaoNhuShop.Domain.dll
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\bin\Debug\net6.0\ThaoNhuShop.Application.pdb
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\bin\Debug\net6.0\ThaoNhuShop.Domain.pdb
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Infrastructure\obj\Debug\net6.0\ThaoNhuShop.Infrastructure.csproj.CopyComplete

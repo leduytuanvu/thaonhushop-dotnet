@@ -1,0 +1,15 @@
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\bin\Debug\net6.0\ThaoNhuShop.Application.deps.json
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\bin\Debug\net6.0\ThaoNhuShop.Application.dll
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\bin\Debug\net6.0\ThaoNhuShop.Application.pdb
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\obj\Debug\net6.0\ThaoNhuShop.Application.csproj.AssemblyReference.cache
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\obj\Debug\net6.0\ThaoNhuShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\obj\Debug\net6.0\ThaoNhuShop.Application.AssemblyInfoInputs.cache
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\obj\Debug\net6.0\ThaoNhuShop.Application.AssemblyInfo.cs
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\obj\Debug\net6.0\ThaoNhuShop.Application.csproj.CoreCompileInputs.cache
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\obj\Debug\net6.0\ThaoNhuShop.Application.dll
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\obj\Debug\net6.0\refint\ThaoNhuShop.Application.dll
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\obj\Debug\net6.0\ThaoNhuShop.Application.pdb
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\obj\Debug\net6.0\ref\ThaoNhuShop.Application.dll
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\bin\Debug\net6.0\ThaoNhuShop.Domain.dll
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\bin\Debug\net6.0\ThaoNhuShop.Domain.pdb
+C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Application\obj\Debug\net6.0\ThaoNhuShop.Application.csproj.CopyComplete
