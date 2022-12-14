@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj": {}
+    "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj": {
+    "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj",
+        "projectUniqueName": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj",
         "projectName": "ThaoNhuShop.Api",
-        "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj",
-        "packagesPath": "C:\\Users\\vuldt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Api\\obj\\",
+        "projectPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj",
+        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
+        "outputPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vuldt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,20 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj": {
-                "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj"
+              "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj": {
+                "projectPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj"
               },
-              "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj": {
-                "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj"
+              "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj": {
+                "projectPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj"
               },
-              "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj"
+              "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj": {
+                "projectPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj"
               }
             }
           }
@@ -49,6 +54,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -72,17 +103,21 @@
         }
       }
     },
-    "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj": {
+    "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj",
+        "projectUniqueName": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj",
         "projectName": "ThaoNhuShop.Application",
-        "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj",
-        "packagesPath": "C:\\Users\\vuldt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Application\\obj\\",
+        "projectPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj",
+        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
+        "outputPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vuldt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,14 +125,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj"
+              "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj": {
+                "projectPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj"
               }
             }
           }
@@ -111,6 +147,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -131,17 +181,21 @@
         }
       }
     },
-    "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj": {
+    "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj",
+        "projectUniqueName": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj",
         "projectName": "ThaoNhuShop.Contract",
-        "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj",
-        "packagesPath": "C:\\Users\\vuldt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Contract\\obj\\",
+        "projectPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Contract\\ThaoNhuShop.Contract.csproj",
+        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
+        "outputPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Contract\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vuldt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -149,6 +203,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -186,17 +241,21 @@
         }
       }
     },
-    "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj": {
+    "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj",
+        "projectUniqueName": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj",
         "projectName": "ThaoNhuShop.Domain",
-        "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj",
-        "packagesPath": "C:\\Users\\vuldt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Domain\\obj\\",
+        "projectPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj",
+        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
+        "outputPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vuldt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -204,6 +263,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -221,6 +281,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -241,17 +315,21 @@
         }
       }
     },
-    "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj": {
+    "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj",
+        "projectUniqueName": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj",
         "projectName": "ThaoNhuShop.Infrastructure",
-        "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\vuldt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\obj\\",
+        "projectPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
+        "outputPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vuldt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -259,14 +337,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj": {
-                "projectPath": "C:\\Users\\vuldt\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj"
+              "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj": {
+                "projectPath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj"
               }
             }
           }
@@ -280,6 +359,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

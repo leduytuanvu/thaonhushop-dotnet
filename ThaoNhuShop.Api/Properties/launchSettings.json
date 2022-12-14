@@ -13,7 +13,7 @@
       "commandName": "Project",
       "hotReloadProfile": "aspnetcore",
       "dotnetRunMessages": true,
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7175;http://localhost:5272",
       "environmentVariables": {
@@ -23,7 +23,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "hotReloadProfile": "aspnetcore",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

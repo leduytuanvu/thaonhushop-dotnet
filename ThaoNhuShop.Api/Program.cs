@@ -1,16 +1,23 @@
-using ThaoNhuShop.Application.Common.Interfaces.Services.Authentication;
+using ThaoNhuShop.API;
+using ThaoNhuShop.Application;
+using ThaoNhuShop.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
-{
-    builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
-    builder.Services.AddControllers();
-    builder.Services.AddEndpointsApiExplorer();
-}
+
+builder.Services.AddPresentation();
+
+builder.Services.AddApplication();
+
+builder.Services.AddInfrastructure(builder.Configuration);
+
+builder.Services.AddEndpointsApiExplorer();
+
 
 var app = builder.Build();
-{
-    app.UseHttpsRedirection();
-    app.UseAuthorization();
-    app.MapControllers();
-    app.Run();
-}
+
+app.UseExceptionHandler("/error");
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
+app.Run();
+

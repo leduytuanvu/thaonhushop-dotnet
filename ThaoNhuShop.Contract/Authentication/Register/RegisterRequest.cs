@@ -4,7 +4,7 @@ namespace ThaoNhuShop.Contract.Authentication.Register
     (
         string Phone,
         string Password,
-        string RePassword,
+        string RePassword,      
         string FullName
     );
 }

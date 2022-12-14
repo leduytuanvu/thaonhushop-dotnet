@@ -10,3 +10,15 @@ C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\ThaoNhuShop.Con
 C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\refint\ThaoNhuShop.Contract.dll
 C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\ThaoNhuShop.Contract.pdb
 C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\ref\ThaoNhuShop.Contract.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\bin\Debug\net6.0\ThaoNhuShop.Contract.deps.json
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\bin\Debug\net6.0\ThaoNhuShop.Contract.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\bin\Debug\net6.0\ThaoNhuShop.Contract.pdb
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\ThaoNhuShop.Contract.csproj.AssemblyReference.cache
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\ThaoNhuShop.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\ThaoNhuShop.Contract.AssemblyInfoInputs.cache
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\ThaoNhuShop.Contract.AssemblyInfo.cs
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\ThaoNhuShop.Contract.csproj.CoreCompileInputs.cache
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\ThaoNhuShop.Contract.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\refint\ThaoNhuShop.Contract.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\ThaoNhuShop.Contract.pdb
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Contract\obj\Debug\net6.0\ref\ThaoNhuShop.Contract.dll

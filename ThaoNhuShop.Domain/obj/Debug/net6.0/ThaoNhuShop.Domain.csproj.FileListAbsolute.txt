@@ -10,3 +10,15 @@ C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\ThaoNhuShop.Domai
 C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\refint\ThaoNhuShop.Domain.dll
 C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\ThaoNhuShop.Domain.pdb
 C:\Users\vuldt\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\ref\ThaoNhuShop.Domain.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\bin\Debug\net6.0\ThaoNhuShop.Domain.deps.json
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\bin\Debug\net6.0\ThaoNhuShop.Domain.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\bin\Debug\net6.0\ThaoNhuShop.Domain.pdb
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\ThaoNhuShop.Domain.csproj.AssemblyReference.cache
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\ThaoNhuShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\ThaoNhuShop.Domain.AssemblyInfoInputs.cache
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\ThaoNhuShop.Domain.AssemblyInfo.cs
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\ThaoNhuShop.Domain.csproj.CoreCompileInputs.cache
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\ThaoNhuShop.Domain.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\refint\ThaoNhuShop.Domain.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\ThaoNhuShop.Domain.pdb
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Domain\obj\Debug\net6.0\ref\ThaoNhuShop.Domain.dll
