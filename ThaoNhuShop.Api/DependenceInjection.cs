@@ -18,7 +18,7 @@ namespace ThaoNhuShop.API
             // ADD AUTOMAPPER
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            // ADD DBCONTEXT
+            // ADD DBCONTEXT WITH SINGLETON
             services.AddDbContext<ThaoNhuShopDbContext>(
                 options => options.UseSqlServer(
                     "name=ConnectionStrings:ThaoNhuShop",

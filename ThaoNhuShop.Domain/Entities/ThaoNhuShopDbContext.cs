@@ -36,7 +36,7 @@ namespace ThaoNhuShop.Domain.Entities
                 e.HasKey(u => u.Id);
                 e.Property(c => c.CreatedDate).HasDefaultValueSql("getutcdate()");
                 e.Property(u => u.Phone).IsRequired().HasColumnType("varchar(10)");
-                e.Property(u => u.Password).IsRequired().HasColumnType("varchar(50)");
+                e.Property(u => u.Password).IsRequired().HasColumnType("varchar(max)");
                 e.Property(u => u.FullName).HasColumnType("nvarchar(50)");
                 e.Property(u => u.Email).HasColumnType("varchar(50)");
                 e.Property(u => u.Avatar).HasColumnType("varchar(max)");

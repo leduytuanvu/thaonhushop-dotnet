@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GRXwePRPZOyFatI1kvoqnlq4a31R9ZXc8fjrlbzTJB3JftPocV6pTCSj3vb3J3tlFfAqpCL5PjRjGhNHEmTaog==",
+  "dgSpecHash": "N9srbZ6UyegppE8BwCgzAo4KK6N+bCvMXlyu+mCk0SDf1CkqK28+lDjgTbTRttIOCTwccmPzP43GRPVZtNtBhQ==",
   "success": true,
   "projectFilePath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Application\\ThaoNhuShop.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admins\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

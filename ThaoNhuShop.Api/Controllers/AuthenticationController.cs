@@ -7,10 +7,12 @@ using ThaoNhuShop.Application.Authentication.Commands.Register;
 using ThaoNhuShop.Application.Authentication.Queries.Login;
 using ThaoNhuShop.Application.Authentication.Common;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ThaoNhuShop.Api.Controllers
 {
     [Route("auth")]
+    [AllowAnonymous]
     public class Authentication : ApiController
     {
         private readonly ISender _mediator;
@@ -41,7 +43,7 @@ namespace ThaoNhuShop.Api.Controllers
             ErrorOr<AuthenticationResult> response = await _mediator.Send(query);
 
             return response.Match(
-                result => Ok(result),
+                result => Ok(_mapper.Map<LoginResponse>(result)),
                 errors => Problem(errors)
             );
         }

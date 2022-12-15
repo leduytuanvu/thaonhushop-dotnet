@@ -4,6 +4,6 @@ POST {{host}}/auth/login
 Content-Type: application/json
 
 {
-    "phone": "0961191712",
+    "phone": "0009999999",
     "password": "1Leduytuanvu"
 }

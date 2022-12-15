@@ -27,14 +27,15 @@ namespace ThaoNhuShop.Application.Authentication.Commands.Register
             {
                 return UserError.DuplicatePhone;
             }
+
             var user = await _userRepository.CreateUser(command.Phone, command.Password, command.FullName);
 
             var token = _jwtTokenGenerator.GenerateToken(user!);
         
-            return new AuthenticationResult(
-                User: user!,
-                Token: token
-            );
+            return new AuthenticationResult {
+                User = user!,
+                Token = token
+            };
         }
     }
 }

@@ -29,10 +29,10 @@ namespace ThaoNhuShop.Application.Authentication.Queries.Login
 
             var token = _jwtTokenGenerator.GenerateToken(user!);
         
-            return new AuthenticationResult(
-                User: user!,
-                Token: token
-            );
+            return new AuthenticationResult {
+                User = user!,
+                Token = token
+            };
         }
     }
 }

@@ -354,7 +354,7 @@ namespace ThaoNhuShop.Api.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("varchar(max)");
 
                     b.Property<string>("Phone")
                         .IsRequired()
