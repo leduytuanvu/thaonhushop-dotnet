@@ -123,3 +123,8 @@ D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\E
 D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\MediatR.dll
 D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\MediatR.Contracts.dll
 D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\FluentValidation.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\obj\Debug\net6.0\ThaoNhuShop.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

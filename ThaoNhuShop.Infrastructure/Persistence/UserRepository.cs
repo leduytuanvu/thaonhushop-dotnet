@@ -1,6 +1,7 @@
 using ThaoNhuShop.Application.Common.Interfaces.Persistence;
 using ThaoNhuShop.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using ThaoNhuShop.Infrastructure.Authentication;
 
 namespace ThaoNhuShop.Infrastructure.Persistence
 {
@@ -15,11 +16,13 @@ namespace ThaoNhuShop.Infrastructure.Persistence
 
         public async Task<User?> CreateUser(string phone, string password, string fullName)
         {
-            var user = new User();
-            user.Id = Guid.NewGuid();
-            user.Phone = phone;
-            user.Password = password;
-            user.FullName = fullName;
+            var passwordHasher = PasswordHasher.HashPassword(password);
+            var user = new User{
+                Id = Guid.NewGuid(),
+                Phone = phone,
+                Password = passwordHasher,
+                FullName = fullName
+            };
             var response = await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
             return response.Entity;
@@ -37,7 +40,8 @@ namespace ThaoNhuShop.Infrastructure.Persistence
 
         public async Task<User?> GetUserByPhoneAndPassword(string phone, string password)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.Phone == phone && u.Password == password);
+            var passwordHasher = PasswordHasher.HashPassword(password);
+            return await _context.Users.FirstOrDefaultAsync(u => u.Phone == phone && u.Password == passwordHasher);
         }
     }
 }

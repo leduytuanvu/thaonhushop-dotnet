@@ -5,7 +5,7 @@ using ThaoNhuShop.Application.Common.Errors;
 
 namespace ThaoNhuShop.Api.Controllers
 {
-    public class ErrorController : ControllerBase
+    public class ErrorsController : ControllerBase
     {
         [Route("/error")]
         public IActionResult Error() {
