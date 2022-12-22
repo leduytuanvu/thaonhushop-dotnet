@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  thaonhushop.api:
-    image: ${DOCKER_REGISTRY-}thaonhushopapi
-    build:
-      context: .
-      dockerfile: ThaoNhuShop.Api\Dockerfile
