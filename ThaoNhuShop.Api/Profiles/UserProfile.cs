@@ -1,5 +1,5 @@
 using AutoMapper;
-using ThaoNhuShop.Contract.Authentication.Register;
+using ThaoNhuShop.Contract.Authentication.Request;
 using ThaoNhuShop.Domain.Entities;
 
 namespace ThaoNhuShop.Api.Profiles
@@ -9,6 +9,8 @@ namespace ThaoNhuShop.Api.Profiles
         public UserProfile()
         {
             CreateMap<User, RegisterRequest>().ReverseMap();
+            
+            CreateMap<User, LoginRequest>().ReverseMap();
         }
     }
 }

@@ -14,18 +14,16 @@
 
         public double DiscountPercent { get; set; } = new double();
 
-        public int BrandId { get; set; }
+        public Guid BrandId { get; set; }
 
-        public int CategoryId { get; set; }
+        public Guid CategoryId { get; set; }
 
 
         public Brand Brand { get; set; } = new Brand();
 
         public Category Category { get; set; } = new Category();
 
-        public ICollection<Size> Sizes { get; set; } = new HashSet<Size>();
-
-        public ICollection<Color> Colors { get; set; } = new HashSet<Color>();
+        public ICollection<ProductItem> ProductItems { get; set; } = new HashSet<ProductItem>();
 
         public ICollection<OrderDetail> OrderDetails { get; set; } = new HashSet<OrderDetail>();
 

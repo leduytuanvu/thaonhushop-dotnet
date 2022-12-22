@@ -4,7 +4,7 @@ POST {{host}}/auth/register
 Content-Type: application/json
 
 {
-    "phone": "0000099999",
+    "phone": "0000009999",
     "password": "1Leduytuanvu",
     "rePassword": "1Leduytuanvu",
     "fullName": "LE DUY TUAN VU"
