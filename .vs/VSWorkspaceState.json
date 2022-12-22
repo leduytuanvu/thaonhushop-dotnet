@@ -1,10 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\ThaoNhuShop.Api",
-    "\\ThaoNhuShop.Api\\Migrations",
-    "\\ThaoNhuShop.Domain",
-    "\\ThaoNhuShop.Domain\\Entities"
+    ""
   ],
   "SelectedNode": "\\ThaoNhuShop.sln",
   "PreviewInSolutionExplorer": false

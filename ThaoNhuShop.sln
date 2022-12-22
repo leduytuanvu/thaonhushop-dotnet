@@ -3,23 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaoNhuShop.Api", "ThaoNhuShop.Api\ThaoNhuShop.Api.csproj", "{926C9F54-8178-4EC5-A98C-75208DDF1413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThaoNhuShop.Api", "ThaoNhuShop.Api\ThaoNhuShop.Api.csproj", "{926C9F54-8178-4EC5-A98C-75208DDF1413}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaoNhuShop.Application", "ThaoNhuShop.Application\ThaoNhuShop.Application.csproj", "{5E5DB68D-C754-4FB0-9414-803EA62883E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThaoNhuShop.Application", "ThaoNhuShop.Application\ThaoNhuShop.Application.csproj", "{5E5DB68D-C754-4FB0-9414-803EA62883E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaoNhuShop.Contract", "ThaoNhuShop.Contract\ThaoNhuShop.Contract.csproj", "{BE2DF276-CF88-4618-9F6B-6850084BE12E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThaoNhuShop.Contract", "ThaoNhuShop.Contract\ThaoNhuShop.Contract.csproj", "{BE2DF276-CF88-4618-9F6B-6850084BE12E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaoNhuShop.Domain", "ThaoNhuShop.Domain\ThaoNhuShop.Domain.csproj", "{23D7FFA0-6AF3-4952-AEBB-F3A7ED6A3852}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThaoNhuShop.Domain", "ThaoNhuShop.Domain\ThaoNhuShop.Domain.csproj", "{23D7FFA0-6AF3-4952-AEBB-F3A7ED6A3852}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaoNhuShop.Infrastructure", "ThaoNhuShop.Infrastructure\ThaoNhuShop.Infrastructure.csproj", "{A4A844C0-7A7A-49A3-93E7-567A06118130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThaoNhuShop.Infrastructure", "ThaoNhuShop.Infrastructure\ThaoNhuShop.Infrastructure.csproj", "{A4A844C0-7A7A-49A3-93E7-567A06118130}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{926C9F54-8178-4EC5-A98C-75208DDF1413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,5 +39,11 @@ Global
 		{A4A844C0-7A7A-49A3-93E7-567A06118130}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4A844C0-7A7A-49A3-93E7-567A06118130}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4A844C0-7A7A-49A3-93E7-567A06118130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8742BD62-832C-492E-9047-6EE5B057344D}
 	EndGlobalSection
 EndGlobal

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3KENpY8+ew0rD3ZmzXM/7TzLXjqo917AmJNzeAoswOFYGYdv2rUyLErdyyP/GCQ3wCmCV5HycaZLvxyB6rHxvw==",
+  "dgSpecHash": "peAqFjGL+2asmD/Lg5q8iGmaULBLg9ueI4mPcutiRHyradC/c9nirXVmDFYwDC7vRctkVURkZa5ztNvCcJYXyA==",
   "success": true,
-  "projectFilePath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj",
+  "projectFilePath": "D:\\leduytuanvu\\development\\flutter\\thaonhushop-dotnet\\ThaoNhuShop.Infrastructure\\ThaoNhuShop.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admins\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",

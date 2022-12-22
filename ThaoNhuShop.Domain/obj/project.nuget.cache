@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PgHTovx3HvoSi1OBzQ3Qg2Xg+BiS6c5KTgruJQxrCguzYP6ETJlPJKVrbh9d6iTxdkNCa7plrkMtWrFFcEt9jQ==",
+  "dgSpecHash": "M5DFo6UARS5J06FUqCYFq5hgmvxZerxIxIG54ZmcBBBToO6OhZpQKGXtlWbxLQSzuzhXb85ChC49Sr2evoCMOQ==",
   "success": true,
-  "projectFilePath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj",
+  "projectFilePath": "D:\\leduytuanvu\\development\\flutter\\thaonhushop-dotnet\\ThaoNhuShop.Domain\\ThaoNhuShop.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admins\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",

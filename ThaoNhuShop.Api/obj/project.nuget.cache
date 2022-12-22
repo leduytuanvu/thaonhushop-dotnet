@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iXpigQFOTu5I8ASGkB56/z8d47kkg+SmyAVuUoxSqJM6bC1yxmqBbueVtaqdSnu6LU5Xqfl27ZowkQ9NMihYww==",
+  "dgSpecHash": "O1KQ61caPRGmGfUgNhxXvXWVICuZy3LPcFGgxBj2NW0KaF5xN4tl0mhDoJ620lcWem4ITPcL/5M6Aj2eMWu1aQ==",
   "success": true,
-  "projectFilePath": "D:\\leduytuanvu\\development\\dotnet\\ThaoNhuShop\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj",
+  "projectFilePath": "D:\\leduytuanvu\\development\\flutter\\thaonhushop-dotnet\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admins\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
