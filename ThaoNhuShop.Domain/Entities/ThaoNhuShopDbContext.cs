@@ -11,20 +11,19 @@ namespace ThaoNhuShop.Domain.Entities
 
         #region DbSet
 
-        public DbSet<User> Users { get; set; }
-        public DbSet<Address> Addresses { get; set; }
-        public DbSet<Brand> Brands { get; set; }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Color> Colors { get; set; }
-        public DbSet<District> Districts { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<ProductImage> ProductImages { get; set; }
-        public DbSet<Province> Provinces { get; set; }
-        public DbSet<Admin> Roles { get; set; }
-        public DbSet<Size> Sizes { get; set; }
-        public DbSet<Ward> Wards { get; set; }
+        public DbSet<User>? Users { get; set; }
+        public DbSet<Address>? Addresses { get; set; }
+        public DbSet<Brand>? Brands { get; set; }
+        public DbSet<Category>? Categories { get; set; }
+        public DbSet<District>? Districts { get; set; }
+        public DbSet<Order>? Orders { get; set; }
+        public DbSet<OrderDetail>? OrderDetails { get; set; }
+        public DbSet<Product>? Products { get; set; }
+        public DbSet<ProductImage>? ProductImages { get; set; }
+        public DbSet<Province>? Provinces { get; set; }
+        public DbSet<Admin>? Roles { get; set; }
+        public DbSet<ProductItem>? Sizes { get; set; }
+        public DbSet<Ward>? Wards { get; set; }
 
         #endregion
 
@@ -43,6 +42,7 @@ namespace ThaoNhuShop.Domain.Entities
                 e.Property(u => u.Gender).HasColumnType("varchar(10)");
                 e.Property(u => u.Status).HasColumnType("varchar(10)");
             });
+
 
             modelBuilder.Entity<Address>(e =>
             {
@@ -70,15 +70,6 @@ namespace ThaoNhuShop.Domain.Entities
                 e.HasKey(c => c.Id);
                 e.Property(c => c.Name).IsRequired().HasColumnType("nvarchar(50)");
                 e.Property(c => c.Image).IsRequired().HasColumnType("varchar(max)");
-            });
-
-            modelBuilder.Entity<Color>(e =>
-            {
-                e.ToTable("Color");
-                e.HasKey(c => c.Id);
-                e.Property(c => c.Name).IsRequired().HasColumnType("nvarchar(50)");
-                e.Property(c => c.Url).IsRequired().HasColumnType("varchar(max)");
-                e.HasOne(u => u.Product).WithMany(u => u.Colors).HasForeignKey(u => u.ProductId);
             });
 
             modelBuilder.Entity<District>(e =>
@@ -140,13 +131,13 @@ namespace ThaoNhuShop.Domain.Entities
                 e.Property(u => u.FullName).HasColumnType("nvarchar(50)");
             });
 
-            modelBuilder.Entity<Size>(e =>
+            modelBuilder.Entity<ProductItem>(e =>
             {
-                e.ToTable("Size");
+                e.ToTable("ProductItem");
                 e.HasKey(s => s.Id);
-                e.Property(c => c.Title).IsRequired().HasColumnType("nvarchar(50)");
-                e.Property(c => c.Description).HasColumnType("nvarchar(500)");
-                e.HasOne(u => u.Product).WithMany(u => u.Sizes).HasForeignKey(u => u.ProductId);
+                e.Property(c => c.Color).IsRequired().HasColumnType("nvarchar(50)");
+                e.Property(c => c.Size).HasColumnType("nvarchar(50)");
+                e.HasOne(u => u.Product).WithMany(u => u.ProductItems).HasForeignKey(u => u.ProductId);
             });
 
             modelBuilder.Entity<Ward>(e =>

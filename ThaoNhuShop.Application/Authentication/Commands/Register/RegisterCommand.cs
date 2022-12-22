@@ -8,7 +8,6 @@ namespace ThaoNhuShop.Application.Authentication.Commands.Register
     (
         string Phone,
         string Password,
-        string RePassword,
-        string FullName
+        string RePassword
     ) : IRequest<ErrorOr<AuthenticationResult>>;
 }

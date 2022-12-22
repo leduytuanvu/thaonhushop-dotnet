@@ -23,14 +23,29 @@ namespace ThaoNhuShop.Application.Authentication.Commands.Register
         {
             var checkPhoneExistOrNot = await _userRepository.GetUserByPhone(command.Phone);
 
-            if (checkPhoneExistOrNot != null)
+            if (checkPhoneExistOrNot is not null)
             {
-                return UserError.DuplicatePhone;
+                return AuthenticationError.DuplicatePhone;
+            } 
+            
+            if(!command.Password.Equals(command.RePassword))
+            {
+                return AuthenticationError.PasswordNotMatch;
             }
 
-            var user = await _userRepository.CreateUser(command.Phone, command.Password, command.FullName);
+            var user = await _userRepository.CreateNewUser(command.Phone, command.Password);
+
+            if(user is null)
+            {
+                return AuthenticationError.CreateUserFail;
+            }
 
             var token = _jwtTokenGenerator.GenerateToken(user!);
+
+            if(string.IsNullOrEmpty(token))
+            {
+                return AuthenticationError.GenerateTokenFail;
+            }
         
             return new AuthenticationResult {
                 User = user!,

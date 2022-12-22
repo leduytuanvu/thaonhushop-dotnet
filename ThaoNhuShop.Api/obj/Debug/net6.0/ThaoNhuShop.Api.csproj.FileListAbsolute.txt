@@ -128,3 +128,4 @@ D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\F
 D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\obj\Debug\net6.0\ThaoNhuShop.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\leduytuanvu\development\dotnet\ThaoNhuShop\ThaoNhuShop.Api\bin\Debug\net6.0\CoreApiResponse.dll

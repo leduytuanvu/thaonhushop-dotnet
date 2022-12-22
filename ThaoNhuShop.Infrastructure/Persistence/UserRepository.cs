@@ -14,34 +14,60 @@ namespace ThaoNhuShop.Infrastructure.Persistence
             _context = context;
         }
 
-        public async Task<User?> CreateUser(string phone, string password, string fullName)
+        public async Task<User?> CreateNewUser(string phone, string password)
         {
             var passwordHasher = PasswordHasher.HashPassword(password);
+            if(string.IsNullOrEmpty(passwordHasher))
+            {
+                return null;
+            }
             var user = new User{
                 Id = Guid.NewGuid(),
                 Phone = phone,
-                Password = passwordHasher,
-                FullName = fullName
+                Password = passwordHasher
             };
-            var response = await _context.Users.AddAsync(user);
+            var response = await _context.Users!.AddAsync(user);
             await _context.SaveChangesAsync();
+            if(response is null)
+            {
+                return null;
+            }
             return response.Entity;
         }
 
         public async Task<User?> GetUserById(Guid id)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
+            var response = await _context.Users!.FirstOrDefaultAsync(u => u.Id == id);
+            if(response is null)
+            {
+                return null;
+            }
+            return response;
         }
 
         public async Task<User?> GetUserByPhone(string phone)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.Phone == phone);
+            var response = await _context.Users!.FirstOrDefaultAsync(u => u.Phone == phone);
+            if(response is null)
+            {
+                return null;
+            }
+            return response;
         }
 
         public async Task<User?> GetUserByPhoneAndPassword(string phone, string password)
         {
             var passwordHasher = PasswordHasher.HashPassword(password);
-            return await _context.Users.FirstOrDefaultAsync(u => u.Phone == phone && u.Password == passwordHasher);
+            if(string.IsNullOrEmpty(passwordHasher))
+            {
+                return null;
+            }
+            var response = await _context.Users!.FirstOrDefaultAsync(u => u.Phone == phone && u.Password == passwordHasher);
+            if(response is null)
+            {
+                return null;
+            }
+            return response;
         }
     }
 }

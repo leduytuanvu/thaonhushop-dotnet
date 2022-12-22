@@ -1,13 +1,13 @@
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
-using ThaoNhuShop.Contract.Authentication.Login;
-using ThaoNhuShop.Contract.Authentication.Register;
 using MediatR;
 using ThaoNhuShop.Application.Authentication.Commands.Register;
 using ThaoNhuShop.Application.Authentication.Queries.Login;
 using ThaoNhuShop.Application.Authentication.Common;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
+using ThaoNhuShop.Contract.Authentication.Request;
+using ThaoNhuShop.Contract.Authentication.Response;
 
 namespace ThaoNhuShop.Api.Controllers
 {
@@ -31,7 +31,7 @@ namespace ThaoNhuShop.Api.Controllers
             ErrorOr<AuthenticationResult?> response = await _mediator.Send(command);
 
             return response.Match(
-                result => Ok(_mapper.Map<RegisterResponse>(result)),
+                result => CustomResult(code: System.Net.HttpStatusCode.Created, message: "Successfully", data: _mapper.Map<AuthenticationResponse>(result)),
                 errors => Problem(errors)
             );
         }
@@ -43,7 +43,7 @@ namespace ThaoNhuShop.Api.Controllers
             ErrorOr<AuthenticationResult> response = await _mediator.Send(query);
 
             return response.Match(
-                result => Ok(_mapper.Map<LoginResponse>(result)),
+                result => CustomResult(code: System.Net.HttpStatusCode.OK, message: "Successfully", data: _mapper.Map<AuthenticationResponse>(result)),
                 errors => Problem(errors)
             );
         }

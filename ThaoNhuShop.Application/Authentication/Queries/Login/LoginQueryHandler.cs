@@ -10,7 +10,7 @@ namespace ThaoNhuShop.Application.Authentication.Queries.Login
     public class LoginQueryHandler : IRequestHandler<LoginQuery, ErrorOr<AuthenticationResult>>
     {
 
-         private readonly IUserRepository _userRepository;
+        private readonly IUserRepository _userRepository;
         private readonly IJwtTokenGenerator _jwtTokenGenerator;
 
         public LoginQueryHandler(IUserRepository userRepository, IJwtTokenGenerator jwtTokenGenerator)
@@ -21,13 +21,18 @@ namespace ThaoNhuShop.Application.Authentication.Queries.Login
 
         public async Task<ErrorOr<AuthenticationResult>> Handle(LoginQuery query, CancellationToken cancellationToken)
         {
-            if(string.IsNullOrEmpty(query.Phone)){
-                return UserError.DuplicatePhone;
-            }
-
             var user = await _userRepository.GetUserByPhoneAndPassword(phone: query.Phone, password: query.Password);
 
+            if(user is null){
+                return AuthenticationError.PhoneOrPasswordWrong;
+            }
+
             var token = _jwtTokenGenerator.GenerateToken(user!);
+
+            if(string.IsNullOrEmpty(token))
+            {
+                return AuthenticationError.GenerateTokenFail;
+            }
         
             return new AuthenticationResult {
                 User = user!,

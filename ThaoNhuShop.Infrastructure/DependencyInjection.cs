@@ -10,6 +10,7 @@ using ThaoNhuShop.Application.Common.Interfaces.Persistence;
 using ThaoNhuShop.Application.Common.Interfaces.Services.DateTimeProvider;
 using ThaoNhuShop.Infrastructure.Authentication;
 using ThaoNhuShop.Infrastructure.Persistence;
+using ThaoNhuShop.Infrastructure.Persistence.Interceptors;
 using ThaoNhuShop.Infrastructure.Services;
 
 namespace ThaoNhuShop.Infrastructure
@@ -23,6 +24,10 @@ namespace ThaoNhuShop.Infrastructure
             services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
 
             services.AddSingleton<IUserRepository, UserRepository>();
+
+            services.AddSingleton<ICategoryRepository, CategoryRepository>();
+
+            services.AddSingleton<IBrandRepository, BrandRepository>();
             
             return services;
         }

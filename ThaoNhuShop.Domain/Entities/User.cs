@@ -1,7 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace ThaoNhuShop.Domain.Entities
 {
     public class User
     {
+        [Key]
         public Guid Id { get; set; } = Guid.NewGuid();
 
         public string Phone { get; set; } = string.Empty;
@@ -10,9 +13,9 @@ namespace ThaoNhuShop.Domain.Entities
 
         public string FullName { get; set; } = string.Empty;
 
-        public string? Email { get; set; }
+        public string Email { get; set; } = string.Empty;
 
-        public string? Avatar { get; set; }
+        public string Avatar { get; set; } = string.Empty;
 
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 
@@ -23,6 +26,7 @@ namespace ThaoNhuShop.Domain.Entities
         public string Status { get; set; } = string.Empty;
 
         public string Gender { get; set; } = string.Empty;
+
 
         
         public ICollection<Address> Addresses { get; set; } = new HashSet<Address>();

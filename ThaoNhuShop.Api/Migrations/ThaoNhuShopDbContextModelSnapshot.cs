@@ -77,11 +77,9 @@ namespace ThaoNhuShop.Api.Migrations
 
             modelBuilder.Entity("ThaoNhuShop.Domain.Entities.Brand", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(500)");
@@ -101,11 +99,9 @@ namespace ThaoNhuShop.Api.Migrations
 
             modelBuilder.Entity("ThaoNhuShop.Domain.Entities.Category", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Image")
                         .IsRequired()
@@ -118,30 +114,6 @@ namespace ThaoNhuShop.Api.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Category", (string)null);
-                });
-
-            modelBuilder.Entity("ThaoNhuShop.Domain.Entities.Color", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<Guid>("ProductId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Url")
-                        .IsRequired()
-                        .HasColumnType("varchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Color", (string)null);
                 });
 
             modelBuilder.Entity("ThaoNhuShop.Domain.Entities.District", b =>
@@ -230,11 +202,11 @@ namespace ThaoNhuShop.Api.Migrations
                     b.Property<int>("Amount")
                         .HasColumnType("int");
 
-                    b.Property<int>("BrandId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("BrandId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(500)");
@@ -281,6 +253,33 @@ namespace ThaoNhuShop.Api.Migrations
                     b.ToTable("ProductImage", (string)null);
                 });
 
+            modelBuilder.Entity("ThaoNhuShop.Domain.Entities.ProductItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Color")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Size")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductItem", (string)null);
+                });
+
             modelBuilder.Entity("ThaoNhuShop.Domain.Entities.Province", b =>
                 {
                     b.Property<int>("Id")
@@ -301,29 +300,6 @@ namespace ThaoNhuShop.Api.Migrations
                     b.ToTable("Province", (string)null);
                 });
 
-            modelBuilder.Entity("ThaoNhuShop.Domain.Entities.Size", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(500)");
-
-                    b.Property<Guid>("ProductId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Size", (string)null);
-                });
-
             modelBuilder.Entity("ThaoNhuShop.Domain.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -331,6 +307,7 @@ namespace ThaoNhuShop.Api.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Avatar")
+                        .IsRequired()
                         .HasColumnType("varchar(max)");
 
                     b.Property<DateTime>("CreatedDate")
@@ -342,6 +319,7 @@ namespace ThaoNhuShop.Api.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<string>("FullName")
@@ -403,17 +381,6 @@ namespace ThaoNhuShop.Api.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("ThaoNhuShop.Domain.Entities.Color", b =>
-                {
-                    b.HasOne("ThaoNhuShop.Domain.Entities.Product", "Product")
-                        .WithMany("Colors")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("ThaoNhuShop.Domain.Entities.District", b =>
@@ -487,10 +454,10 @@ namespace ThaoNhuShop.Api.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("ThaoNhuShop.Domain.Entities.Size", b =>
+            modelBuilder.Entity("ThaoNhuShop.Domain.Entities.ProductItem", b =>
                 {
                     b.HasOne("ThaoNhuShop.Domain.Entities.Product", "Product")
-                        .WithMany("Sizes")
+                        .WithMany("ProductItems")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -531,13 +498,11 @@ namespace ThaoNhuShop.Api.Migrations
 
             modelBuilder.Entity("ThaoNhuShop.Domain.Entities.Product", b =>
                 {
-                    b.Navigation("Colors");
-
                     b.Navigation("OrderDetails");
 
                     b.Navigation("ProductImages");
 
-                    b.Navigation("Sizes");
+                    b.Navigation("ProductItems");
                 });
 
             modelBuilder.Entity("ThaoNhuShop.Domain.Entities.Province", b =>
