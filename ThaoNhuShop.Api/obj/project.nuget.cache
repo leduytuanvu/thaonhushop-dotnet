@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hNbGYmCvKjfSzDEpk9iSqxll9fF+3Gth1HVR+Eecf+E4OE9t6Lvaeg0P4L2zWfuDBstHe/jxx065/osiFEOuKw==",
+  "dgSpecHash": "Y8hbKbrRbvpEgpYDTZC/MiLGXJgoJKmAuwRVFiZcrI2eRnHko1wjjHhQM2Gh8/9xPDWDBtvoK7XwNZAU1yM1og==",
   "success": true,
   "projectFilePath": "D:\\leduytuanvu\\development\\dotnet\\thaonhushop-dotnet\\ThaoNhuShop.Api\\ThaoNhuShop.Api.csproj",
   "expectedPackageFiles": [
@@ -73,6 +73,7 @@
     "C:\\Users\\Admins\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",

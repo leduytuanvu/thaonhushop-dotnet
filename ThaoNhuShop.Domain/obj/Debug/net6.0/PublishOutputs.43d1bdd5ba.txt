@@ -1,0 +1,16 @@
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\ThaoNhuShop.Domain.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\ThaoNhuShop.Domain.deps.json
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\ThaoNhuShop.Domain.pdb
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\ErrorOr.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.EntityFrameworkCore.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.EntityFrameworkCore.Relational.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.Extensions.Caching.Abstractions.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.Extensions.Caching.Memory.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.Extensions.DependencyInjection.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.Extensions.Logging.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.Extensions.Logging.Abstractions.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.Extensions.Options.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Domain\bin\Debug\net6.0\publish\Microsoft.Extensions.Primitives.dll

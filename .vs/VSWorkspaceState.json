@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ThaoNhuShop.Application",
+    "\\ThaoNhuShop.Application\\Common",
+    "\\ThaoNhuShop.Application\\Common\\Interfaces",
+    "\\ThaoNhuShop.Application\\Common\\Interfaces\\Persistence"
   ],
-  "SelectedNode": "\\ThaoNhuShop.sln",
+  "SelectedNode": "\\ThaoNhuShop.Application\\Common\\Interfaces\\Persistence\\ICategoryRepository.cs",
   "PreviewInSolutionExplorer": false
 }

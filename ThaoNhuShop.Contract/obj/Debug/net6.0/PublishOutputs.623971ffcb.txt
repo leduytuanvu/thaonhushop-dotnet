@@ -1,0 +1,3 @@
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Contract\bin\Debug\net6.0\publish\ThaoNhuShop.Contract.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Contract\bin\Debug\net6.0\publish\ThaoNhuShop.Contract.deps.json
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Contract\bin\Debug\net6.0\publish\ThaoNhuShop.Contract.pdb
