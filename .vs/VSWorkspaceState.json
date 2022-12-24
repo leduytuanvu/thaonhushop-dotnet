@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ThaoNhuShop.Application\\Common",
-    "\\ThaoNhuShop.Application\\Common\\Interfaces",
-    "\\ThaoNhuShop.Application\\Common\\Interfaces\\Persistence"
+    "\\ThaoNhuShop.Api"
   ],
-  "SelectedNode": "\\ThaoNhuShop.sln",
+  "SelectedNode": "\\ThaoNhuShop.Api\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
