@@ -3,6 +3,7 @@ using ThaoNhuShop.Application;
 using ThaoNhuShop.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 builder.Services.AddPresentation();
 

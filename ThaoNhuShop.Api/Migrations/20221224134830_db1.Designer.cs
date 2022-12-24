@@ -12,7 +12,7 @@ using ThaoNhuShop.Domain.Entities;
 namespace ThaoNhuShop.Api.Migrations
 {
     [DbContext(typeof(ThaoNhuShopDbContext))]
-    [Migration("20221224090533_db1")]
+    [Migration("20221224134830_db1")]
     partial class db1
     {
         /// <inheritdoc />

@@ -33,6 +33,7 @@ namespace ThaoNhuShop.Domain.Entities
             {
                 e.ToTable("User");
                 e.HasKey(u => u.Id);
+                // e.Property(c => c.CreatedDate).HasDefaultValueSql("getutcdate()");
                 e.Property(c => c.CreatedDate).HasDefaultValueSql("NOW()");
                 e.Property(u => u.Phone).IsRequired().HasColumnType("varchar(10)");
                 e.Property(u => u.Password).IsRequired().HasColumnType("varchar(8000)");
@@ -83,6 +84,7 @@ namespace ThaoNhuShop.Domain.Entities
             {
                 e.ToTable("Order");
                 e.HasKey(o => o.Id);
+                // e.Property(c => c.CreatedDate).HasDefaultValueSql("getutcdate()");
                 e.Property(c => c.CreatedDate).HasDefaultValueSql("NOW()");
                 e.Property(c => c.Status).IsRequired().HasColumnType("varchar(10)");
                 e.HasOne(u => u.User).WithMany(u => u.Orders).HasForeignKey(u => u.UserId);

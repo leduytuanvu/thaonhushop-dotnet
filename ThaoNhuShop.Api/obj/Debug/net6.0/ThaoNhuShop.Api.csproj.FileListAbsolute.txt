@@ -232,3 +232,9 @@ D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\obj\Debug\n
 D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\obj\Debug\net6.0\ref\ThaoNhuShop.Api.dll
 D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\bin\Debug\net6.0\Npgsql.dll
 D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\bin\Debug\net6.0\Amazon.Lambda.APIGatewayEvents.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\bin\Debug\net6.0\Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\bin\Debug\net6.0\Amazon.Lambda.AspNetCoreServer.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\bin\Debug\net6.0\Amazon.Lambda.Core.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\bin\Debug\net6.0\Amazon.Lambda.Logging.AspNetCore.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\bin\Debug\net6.0\Amazon.Lambda.Serialization.SystemTextJson.dll
