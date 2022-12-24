@@ -230,3 +230,5 @@ D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\obj\Debug\n
 D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\obj\Debug\net6.0\ThaoNhuShop.Api.pdb
 D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\obj\Debug\net6.0\ThaoNhuShop.Api.genruntimeconfig.cache
 D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\obj\Debug\net6.0\ref\ThaoNhuShop.Api.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\bin\Debug\net6.0\Npgsql.dll
+D:\leduytuanvu\development\dotnet\thaonhushop-dotnet\ThaoNhuShop.Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

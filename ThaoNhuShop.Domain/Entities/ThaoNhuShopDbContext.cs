@@ -33,12 +33,12 @@ namespace ThaoNhuShop.Domain.Entities
             {
                 e.ToTable("User");
                 e.HasKey(u => u.Id);
-                e.Property(c => c.CreatedDate).HasDefaultValueSql("getutcdate()");
+                e.Property(c => c.CreatedDate).HasDefaultValueSql("NOW()");
                 e.Property(u => u.Phone).IsRequired().HasColumnType("varchar(10)");
-                e.Property(u => u.Password).IsRequired().HasColumnType("varchar(max)");
-                e.Property(u => u.FullName).HasColumnType("nvarchar(50)");
+                e.Property(u => u.Password).IsRequired().HasColumnType("varchar(8000)");
+                e.Property(u => u.FullName).HasColumnType("varchar(50)");
                 e.Property(u => u.Email).HasColumnType("varchar(50)");
-                e.Property(u => u.Avatar).HasColumnType("varchar(max)");
+                e.Property(u => u.Avatar).HasColumnType("varchar(8000)");
                 e.Property(u => u.Gender).HasColumnType("varchar(10)");
                 e.Property(u => u.Status).HasColumnType("varchar(10)");
             });
@@ -48,10 +48,10 @@ namespace ThaoNhuShop.Domain.Entities
             {
                 e.ToTable("Address");
                 e.HasKey(a => a.Id);
-                e.Property(c => c.FullName).IsRequired().HasColumnType("nvarchar(50)");
+                e.Property(c => c.FullName).IsRequired().HasColumnType("varchar(50)");
                 e.Property(c => c.PhoneContact).IsRequired().HasColumnType("varchar(10)");
-                e.Property(c => c.Description).HasColumnType("nvarchar(500)");
-                e.Property(c => c.IsDefault).HasColumnType("bit");
+                e.Property(c => c.Description).HasColumnType("varchar(500)");
+                e.Property(c => c.IsDefault).HasDefaultValue(false);
                 e.HasOne(u => u.User).WithMany(u => u.Addresses).HasForeignKey(u => u.UserId);
             });
 
@@ -59,31 +59,31 @@ namespace ThaoNhuShop.Domain.Entities
             {
                 e.ToTable("Brand");
                 e.HasKey(b => b.Id);
-                e.Property(c => c.Name).IsRequired().HasColumnType("nvarchar(50)");
-                e.Property(c => c.Logo).IsRequired().HasColumnType("varchar(max)");
-                e.Property(c => c.Description).HasColumnType("nvarchar(500)");
+                e.Property(c => c.Name).IsRequired().HasColumnType("varchar(50)");
+                e.Property(c => c.Logo).IsRequired().HasColumnType("varchar(8000)");
+                e.Property(c => c.Description).HasColumnType("varchar(500)");
             });
 
             modelBuilder.Entity<Category>(e =>
             {
                 e.ToTable("Category");
                 e.HasKey(c => c.Id);
-                e.Property(c => c.Name).IsRequired().HasColumnType("nvarchar(50)");
-                e.Property(c => c.Image).IsRequired().HasColumnType("varchar(max)");
+                e.Property(c => c.Name).IsRequired().HasColumnType("varchar(50)");
+                e.Property(c => c.Image).IsRequired().HasColumnType("varchar(8000)");
             });
 
             modelBuilder.Entity<District>(e =>
             {
                 e.ToTable("District");
                 e.HasKey(d => d.Id);
-                e.Property(c => c.Name).IsRequired().HasColumnType("nvarchar(50)");
+                e.Property(c => c.Name).IsRequired().HasColumnType("varchar(50)");
                 e.HasOne(u => u.Province).WithMany(u => u.Districts).HasForeignKey(u => u.ProvinceId);
             });
             modelBuilder.Entity<Order>(e =>
             {
                 e.ToTable("Order");
                 e.HasKey(o => o.Id);
-                e.Property(c => c.CreatedDate).HasDefaultValueSql("getutcdate()");
+                e.Property(c => c.CreatedDate).HasDefaultValueSql("NOW()");
                 e.Property(c => c.Status).IsRequired().HasColumnType("varchar(10)");
                 e.HasOne(u => u.User).WithMany(u => u.Orders).HasForeignKey(u => u.UserId);
             });
@@ -99,8 +99,8 @@ namespace ThaoNhuShop.Domain.Entities
             {
                 e.ToTable("Product");
                 e.HasKey(p => p.Id);
-                e.Property(c => c.Name).IsRequired().HasColumnType("nvarchar(50)");
-                e.Property(c => c.Description).HasColumnType("nvarchar(500)");
+                e.Property(c => c.Name).IsRequired().HasColumnType("varchar(50)");
+                e.Property(c => c.Description).HasColumnType("varchar(500)");
                 e.HasOne(u => u.Category).WithMany(u => u.Products).HasForeignKey(u => u.CategoryId);
                 e.HasOne(u => u.Brand).WithMany(u => u.Products).HasForeignKey(u => u.BrandId);
 
@@ -110,8 +110,8 @@ namespace ThaoNhuShop.Domain.Entities
             {
                 e.ToTable("ProductImage");
                 e.HasKey(p => p.Id);
-                e.Property(c => c.Url).IsRequired().HasColumnType("varchar(max)");
-                e.Property(c => c.Description).HasColumnType("nvarchar(500)");
+                e.Property(c => c.Url).IsRequired().HasColumnType("varchar(8000)");
+                e.Property(c => c.Description).HasColumnType("varchar(500)");
                 e.HasOne(u => u.Product).WithMany(u => u.ProductImages).HasForeignKey(u => u.ProductId);
             });
 
@@ -119,7 +119,7 @@ namespace ThaoNhuShop.Domain.Entities
             {
                 e.ToTable("Province");
                 e.HasKey(p => p.Id);
-                e.Property(c => c.Name).IsRequired().HasColumnType("nvarchar(50)");
+                e.Property(c => c.Name).IsRequired().HasColumnType("varchar(50)");
             });
 
             modelBuilder.Entity<Admin>(e =>
@@ -128,15 +128,15 @@ namespace ThaoNhuShop.Domain.Entities
                 e.HasKey(r => r.Id);
                 e.Property(u => u.Phone).IsRequired().HasColumnType("varchar(10)");
                 e.Property(u => u.Password).IsRequired().HasColumnType("varchar(50)");
-                e.Property(u => u.FullName).HasColumnType("nvarchar(50)");
+                e.Property(u => u.FullName).HasColumnType("varchar(50)");
             });
 
             modelBuilder.Entity<ProductItem>(e =>
             {
                 e.ToTable("ProductItem");
                 e.HasKey(s => s.Id);
-                e.Property(c => c.Color).IsRequired().HasColumnType("nvarchar(50)");
-                e.Property(c => c.Size).HasColumnType("nvarchar(50)");
+                e.Property(c => c.Color).IsRequired().HasColumnType("varchar(50)");
+                e.Property(c => c.Size).HasColumnType("varchar(50)");
                 e.HasOne(u => u.Product).WithMany(u => u.ProductItems).HasForeignKey(u => u.ProductId);
             });
 
@@ -144,7 +144,7 @@ namespace ThaoNhuShop.Domain.Entities
             {
                 e.ToTable("Ward");
                 e.HasKey(w => w.Id);
-                e.Property(c => c.Name).IsRequired().HasColumnType("nvarchar(50)");
+                e.Property(c => c.Name).IsRequired().HasColumnType("varchar(50)");
                 e.HasOne(u => u.District).WithMany(u => u.Wards).HasForeignKey(u => u.DistrictId);
 
             });

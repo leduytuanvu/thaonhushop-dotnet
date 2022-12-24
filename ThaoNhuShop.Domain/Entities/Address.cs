@@ -10,7 +10,7 @@
 
         public string? Description { get; set; } = string.Empty;
 
-        public bool IsDefault { get; set; } = false;
+        public bool IsDefault { get; set; }
 
         public Guid UserId { get; set; }
 

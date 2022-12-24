@@ -19,8 +19,15 @@ namespace ThaoNhuShop.API
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             // ADD DBCONTEXT WITH SINGLETON
-            services.AddDbContext<ThaoNhuShopDbContext>(
-                options => options.UseSqlServer(
+            //services.AddDbContext<ThaoNhuShopDbContext>(
+            //    options => options.UseSqlServer(
+            //        "name=ConnectionStrings:ThaoNhuShop",
+            //        b => b.MigrationsAssembly("ThaoNhuShop.Api")
+            //    ), ServiceLifetime.Singleton
+            //);
+
+            services.AddEntityFrameworkNpgsql().AddDbContext<ThaoNhuShopDbContext>(options =>
+                options.UseNpgsql(
                     "name=ConnectionStrings:ThaoNhuShop",
                     b => b.MigrationsAssembly("ThaoNhuShop.Api")
                 ), ServiceLifetime.Singleton
