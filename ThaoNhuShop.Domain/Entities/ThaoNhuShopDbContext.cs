@@ -22,8 +22,9 @@ namespace ThaoNhuShop.Domain.Entities
         public DbSet<ProductImage>? ProductImages { get; set; }
         public DbSet<Province>? Provinces { get; set; }
         public DbSet<Admin>? Roles { get; set; }
-        public DbSet<ProductItem>? Sizes { get; set; }
         public DbSet<Ward>? Wards { get; set; }
+        public DbSet<ProductItem>? ProductItems { get; set; }
+        public DbSet<Admin>? Admins { get; set; }
 
         #endregion
 

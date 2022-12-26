@@ -39,9 +39,15 @@ namespace ThaoNhuShop.Infrastructure.Persistence
             return responseDelete.Entity;
         }
 
-        public async Task<Address?> GetAllAddressByUserId(Guid id)
+        public async Task<Address?> GetAddressById(Guid id)
         {
-            var response = await _context.Addresses!.FirstOrDefaultAsync(x => x.UserId == id);
+           var response = await _context.Addresses!.FindAsync(id);
+            return response;
+        }
+
+        public async Task<List<Address>?> GetAllAddressByUserId(Guid id)
+        {
+            var response = await _context.Addresses!.Select(x => x).Where(x => x.UserId == id).ToListAsync();
             if (response is null)
             {
                 return null;

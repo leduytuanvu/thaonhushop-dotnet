@@ -25,8 +25,6 @@
 
         public ICollection<ProductItem> ProductItems { get; set; } = new HashSet<ProductItem>();
 
-        public ICollection<OrderDetail> OrderDetails { get; set; } = new HashSet<OrderDetail>();
-
         public ICollection<ProductImage> ProductImages { get; set; } = new HashSet<ProductImage>();
     }
 }
